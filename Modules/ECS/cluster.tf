@@ -1,4 +1,3 @@
-
-resource "aws_ecs_cluster_capacity" "this" {
+resource "aws_ecs_cluster" "this" {
     name = "todo"
 }

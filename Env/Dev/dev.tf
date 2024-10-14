@@ -26,3 +26,9 @@ module "network" {
     public_subnet_role = local.public_subnet_role
     nacl_data = local.nacl_data
 }
+
+
+module "todo_ecs" {
+    source = "../../Modules/ECS"
+    
+}
